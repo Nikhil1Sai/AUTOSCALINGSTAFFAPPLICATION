@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<style>
+	
+	#title {
+     font-family: Times New Roman;
+
+	}
+	#description {
+      font-family: Arial;
+	}
+	#survey-form {
+      margin-top: 10px;
+		margin-right: 100px;
+		margin-left: 100px;
+		margin-bottom: 10px;
+		display: flex-vertical;
+		background: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 1.5em;
+        text-align: center;
+
+	}
+	#name, #email, #number {
+		font-family: sans-serif ;
+		text-align: left;
+		padding: 0px 5px 0px 5px;
+	}
+	html {
+		background:#FFB6C1 ;
+	}
+	div {
+		
+	}
+	#botton {
+		text-align: center;
+		background: #FFB6C1;
+	}
+    input {
+      background: #ffe6e6;
+    }
+</style>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>attendence Survey form</title>
+	<header><h1 id="title">Survey Form</h1>
+		<p id="description">The above Survey form will be considered as you attendence for this class so kindly fill the form.</p>
+	</header>
+
+</head>
+<body>
+<form id="survey-form">
+	
+	<div id="name">
+	<label>Name:</label><br>
+	<input type="text" name="name" placeholder="Nikhil" size="50">
+    </div>
+<br>
+    <div id="number">
+	<label>Registration Number:</label><br>
+	<input type="text" name="number" placeholder="Reg.no: 20mis7015" size="50"></div>
+<br>
+    <div id="email">
+	<label>College Email:</label><br>
+	<input type="Email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Email" size="50"></div>
+<br>
+    <div id="name">
+    <label>Select your slot:</label>
+	<br>
+	<input type="radio" id="A1" name="slot" value="A1"> <label for= "A1">A1 SLOT</label>
+	<br>
+	<input type="radio" id="A2" name="slot" value="A2"> <label for= "A2">A2 SLOT</label>
+	<br>
+	<input type="radio" id="B1" name="slot" value="B1"> <label for= "B1">B1 SLOT</label>
+	<br>
+	<input type="radio" id="B2" name="slot" value="B2"> <label for= "B2">B2 SLOT</label>
+	<br>
+	<input type="radio" id="C1" name="slot" value="C1"> <label for= "C1">C1 SLOT</label>	
+    <br>
+    <input type="radio" id="C2" name="slot" value="C2"> <label for= "C2">C2 SLOT</label>	
+    </div>
+<br>	
+    <div id="name">
+    <label>Rate Your learning:</label>
+	<input type="radio" id="1" name="learning" value="1"> <label for= "1">1</label>
+	<input type="radio" id="2" name="learning" value="2"> <label for= "2">2</label>
+	<input type="radio" id="3" name="learning" value="3"> <label for= "3">3</label>
+	<input type="radio" id="4" name="learning" value="4"> <label for= "4">4</label>
+	<input type="radio" id="5" name="learning" value="5"> <label for= "5">5</label>	
+    </div>
+<br>	
+    <div id="name">
+	<label>Rate your experience:</label>
+	<input type="radio" id="1" name="experience" value="1"> <label for= "1">1</label>
+	<input type="radio" id="2" name="experience" value="2"> <label for= "2">2</label>
+	<input type="radio" id="3" name="experience" value="3"> <label for= "3">3</label>
+	<input type="radio" id="4" name="experience" value="4"> <label for= "4">4</label>
+	<input type="radio" id="5" name="experience" value="5"> <label for= "5">5</label>	
+    </div>
+
+<br>
+    <div id="name">
+    <label>If you have any suggestions:</label>
+	<input type="text" name="Suggest" placeholder="suggestions" size="50">
+	</div>
+<br>
+    <center><button id="botton">Submit</button></center>		
+	<footer>@copyrights for the form</footer>
+</form>
+</body>
+</html>
